@@ -40,5 +40,5 @@ code projeto-portfolio
 
 Este site está disponível publicamente através do GitHub Pages. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal]()
+- [Portfólio Pessoal](https://martinelii.github.io/projeto-portfolio/)
 
