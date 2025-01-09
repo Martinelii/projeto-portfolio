@@ -1,7 +1,9 @@
 
 # Portifólio
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O site inclui informações sobre mim, meus projetos, habilidades e formas de contato
+
+![HTML Badge](https://img.shields.io/badge/HTML-Badge-red) ![CSS Badge](https://img.shields.io/badge/CSS-Badge-blue) ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Badge-yellow)
 
 
 ## Stack utilizada
