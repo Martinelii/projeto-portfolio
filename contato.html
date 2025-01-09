@@ -44,20 +44,20 @@
             <form action="#" method="submit" id="formulario">
 
                 <label for="name">Nome:</label>
-                <input type="name" type="text" name="name" placeholder="Digite seu nome">
+                <input id="name" type="text" name="name" placeholder="Digite seu nome">
                 <span id="txtNome"></span>
 
                 <label for="email">E-mail:</label>
-                <input type="email" type="text" name="email" placeholder="Digite seu email">
+                <input id="email" type="email" name="email" placeholder="Digite seu email">
                 <span id="txtEmail"></span>
 
                 <label for="subject">Assunto:</label>
-                <input type="subject" type="text" name="subject" placeholder="Digite o titulo da mensagem">
+                <input id="subject" type="text" name="subject" placeholder="Digite o titulo da mensagem">
                 <span id="txtSubject"></span>
             
                 <label for="message">Mensagem:</label>
-                <input type="message" type="text" name="message" placeholder="Digite sua mensagem">
-                <span id="txtMessage"></span>
+                <textarea id="message"name="message"placeholder="Digite sua mensagem" required>
+                </textarea>
 
                 <button type="submit"> Enviar </button>
             </form>
@@ -106,5 +106,8 @@
         <h3>Feito com 🧡 por Keven Martineli - 2025</h3>
 
     </footer>
+
+    <!-- Script JavaScript-->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
