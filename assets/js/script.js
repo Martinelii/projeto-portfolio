@@ -9,9 +9,11 @@ formulario.addEventListener('submit', function(event){
 
     if (campoNome.value.length < 3){
         txtName.innerHTML = 'O nome deve ter no mínimo 3 caracteres';
+        campoNome.style.borderColor = 'red';
         campoNome.focus();
         return;
     }else{
+        campoNome.style.borderColor = 'black';
         txtName.innerHTML = '';
     }
 
@@ -20,9 +22,11 @@ formulario.addEventListener('submit', function(event){
 
     if(!campoEmail.value.match(emailRegex)){
         txtEmail.innerHTML = 'Digite um E-mail válido.'
+        campoEmail.style.borderColor = 'red';
         campoEmail.focus();
         return;
     }else{
+        campoEmail.style.borderColor = 'black';
         txtEmail.innerHTML ='';
     }
 
@@ -31,10 +35,12 @@ formulario.addEventListener('submit', function(event){
   
     if (campoSubject.value.length < 5) {
       txtSubject.innerHTML = 'O Assunto deve ter no minimo 5 caracteres.';
+      campoSubject.style.borderColor = 'red'
       campoSubject.focus();
       return;
     }else{
-      txtSubject.innerHTML = '';
+        campoSubject.style.borderColor = 'black'
+        txtSubject.innerHTML = '';
     }
 
 
